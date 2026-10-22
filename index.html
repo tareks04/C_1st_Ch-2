@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="bn" class="dark">
 <head>
 <meta charset="utf-8">
@@ -11,6 +11,7 @@
 :root{color-scheme:dark;--bg:#060913;--surface:rgba(19,27,46,.88);--border:rgba(255,255,255,.09);--muted:#94a3b8;--text:#f1f5f9;--indigo:#6366f1;--green:#10b981;--red:#fb7185;--amber:#fbbf24}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 15% 0%,rgba(79,70,229,.13),transparent 35%),radial-gradient(ellipse at 90% 15%,rgba(168,85,247,.10),transparent 30%),var(--bg);color:var(--text);font-family:'Hind Siliguri',sans-serif}
 button{font:inherit;cursor:pointer}button:disabled{cursor:not-allowed;opacity:.4}.topbar{position:sticky;top:0;z-index:10;background:rgba(13,19,34,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);box-shadow:0 12px 30px #0003}.topinner{max-width:1100px;margin:auto;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:12px}.logo{height:44px;width:44px;border-radius:14px;background:linear-gradient(135deg,#4f46e5,#9333ea,#ec4899);display:grid;place-items:center;font-size:23px;box-shadow:0 8px 22px #6366f133}.title{margin:0;font-size:clamp(16px,2vw,22px);font-weight:700;background:linear-gradient(90deg,#a5b4fc,#e9d5ff,#f9a8d4);color:transparent;background-clip:text}.sub{color:var(--muted);font-size:12px}.reset{padding:8px 12px;border-radius:12px;border:1px solid #fb718533;color:#fda4af;background:#fb718a12}.track{height:5px;background:#020617}.bar{height:100%;width:0;background:linear-gradient(90deg,#6366f1,#a855f7,#10b981);transition:width .25s}.wrap{max-width:1000px;margin:auto;padding:22px 16px 32px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}.glass{background:var(--surface);backdrop-filter:blur(12px);border:1px solid var(--border);border-radius:20px;box-shadow:0 15px 35px #0002}.stat{padding:13px;text-align:center}.stat span{display:block;font-size:12px;color:var(--muted)}.stat strong{font-size:clamp(20px,3vw,28px)}.stat:nth-child(1) strong{color:#a5b4fc}.stat:nth-child(2) strong{color:var(--amber)}.stat:nth-child(3) strong{color:#6ee7b7}.navbox{padding:14px;margin-bottom:18px}.navhead{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:12px;margin:0 2px 10px}.navgrid{display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:6px;max-height:150px;overflow:auto;padding:2px}.navbtn{min-height:30px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#cbd5e1;font-size:12px}.navbtn.current{background:#4f46e5;border-color:#a5b4fc;color:white;box-shadow:0 0 0 2px #6366f144}.navbtn.correct{background:#064e3b;color:#a7f3d0;border-color:#047857}.navbtn.wrong{background:#4c0519;color:#fecdd3;border-color:#9f1239}.qcard{padding:clamp(18px,4vw,30px);box-shadow:0 0 28px #6366f11b}.qhead{display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:1px solid #334155a8;padding-bottom:14px;margin-bottom:18px}.pill{font-size:12px;padding:5px 10px;border-radius:99px;border:1px solid #6366f155;color:#a5b4fc;background:#6366f118}.subject{font-size:12px;color:var(--muted);border:1px solid #334155;border-radius:99px;padding:5px 10px}.question{font-size:clamp(18px,2.5vw,24px);font-weight:700;line-height:1.7;margin:0 0 22px;white-space:pre-wrap}.options{display:grid;gap:10px;margin-bottom:18px}.option{width:100%;text-align:left;display:flex;align-items:flex-start;gap:12px;padding:13px 14px;border:1px solid #273449;border-radius:15px;background:#0b1220b8;color:#e2e8f0;line-height:1.6;transition:.15s}.option:hover:not(:disabled){border-color:#818cf8;background:#17213a}.letter{flex:0 0 29px;width:29px;height:29px;border-radius:9px;background:#111827;border:1px solid #334155;display:grid;place-items:center;font-weight:700;font-size:13px;color:#cbd5e1}.option.good{border-color:#10b981;background:#064e3b55;color:#d1fae5}.option.bad{border-color:#fb7185;background:#4c051955;color:#ffe4e6}.option.good .letter{background:#065f46;border-color:#10b981;color:white}.option.bad .letter{background:#881337;border-color:#fb7185;color:white}.feedback{display:none;margin:14px 0 18px;padding:14px 16px;border-radius:14px;line-height:1.65;font-size:14px}.feedback.show{display:block}.feedback.ok{color:#a7f3d0;background:#064e3b55;border:1px solid #10b98155}.feedback.no{color:#fecdd3;background:#4c051955;border:1px solid #fb718555}.controls{display:flex;justify-content:space-between;gap:8px;align-items:center;border-top:1px solid #334155a8;padding-top:17px}.btn{border-radius:12px;padding:10px 16px;border:1px solid #334155;background:#0b1220;color:#e2e8f0}.btn.primary{background:linear-gradient(135deg,#4f46e5,#7c3aed);border-color:#818cf8;color:white;box-shadow:0 8px 22px #4f46e533}.btn:focus-visible,.option:focus-visible,.navbtn:focus-visible{outline:2px solid #a5b4fc;outline-offset:2px}.results{display:none;padding:clamp(18px,4vw,32px);text-align:center}.results.show{display:block}.trophy{font-size:46px}.resultgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0}.resultstat{padding:14px;border-radius:14px;border:1px solid #334155;background:#02061788}.resultstat span{display:block;color:var(--muted);font-size:12px}.resultstat strong{font-size:25px}.review{display:none;text-align:left;margin-top:24px;border-top:1px solid #334155;padding-top:20px}.review.show{display:block}.reviewitem{border:1px solid #334155;border-radius:14px;padding:14px;margin:10px 0;background:#02061766}.reviewitem h3{font-size:15px;margin:0 0 8px;line-height:1.6}.reviewitem p{font-size:13px;color:#cbd5e1;line-height:1.6;margin:5px 0}.foot{text-align:center;color:#64748b;font-size:12px;padding:18px 0 0}
+.timer-pill{color:#a5b4fc;border-color:#6366f155;background:#6366f118;font-variant-numeric:tabular-nums}.timegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0 22px}.timestat{padding:14px;border-radius:14px;border:1px solid #6366f144;background:#111827a8}.timestat span{display:block;color:var(--muted);font-size:12px}.timestat strong{display:block;margin-top:4px;font-size:clamp(16px,2.5vw,22px);color:#a5b4fc;font-variant-numeric:tabular-nums}
 @media(max-width:620px){.topinner{padding:10px 12px}.logo{height:38px;width:38px}.reset{font-size:12px;padding:7px 9px}.wrap{padding:15px 10px 24px}.stats{gap:7px}.stat{padding:10px 4px}.navgrid{grid-template-columns:repeat(8,minmax(0,1fr));gap:5px}.navbtn{min-height:32px}.qhead{align-items:flex-start;flex-direction:column}.controls{flex-wrap:wrap}.controls .btn{flex:1}.resultgrid{grid-template-columns:repeat(2,1fr)}}
 
 .quiz-bookmark-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:20px;align-items:start;margin-bottom:18px}
@@ -38,7 +39,7 @@ button{font:inherit;cursor:pointer}button:disabled{cursor:not-allowed;opacity:.4
 <div id="stats" class="stats"><div class="glass stat"><span>মোট প্রশ্ন</span><strong id="totalStat">141</strong></div><div class="glass stat"><span>উত্তর প্রদান</span><strong id="answeredStat">0</strong></div><div class="glass stat"><span>বর্তমান স্কোর</span><strong id="scoreStat">0</strong></div></div>
 <section class="glass navbox" id="navigatorBox"><div class="navhead"><span>প্রশ্ন নেভিগেটর</span><span id="completion">0% সম্পন্ন</span></div><div class="navgrid" id="navgrid"></div></section>
 <div id="quiz-bookmark-layout" class="quiz-bookmark-layout">
-<section id="quizCard" class="glass qcard"><div class="qhead"><span class="pill" id="questionBadge">প্রশ্ন ১ / ১৪১</span><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><span class="subject">গুণগত রসায়ন • C-02</span><button id="bookmark-current-btn" class="bookmark-current" type="button" aria-pressed="false">☆ বুকমার্ক করুন</button></div></div><h2 class="question" id="questionText"></h2><div id="options" class="options"></div><div id="feedback" class="feedback" role="status" aria-live="polite"></div><div class="controls"><button class="btn" id="prevBtn">← পূর্ববর্তী</button><button class="btn" id="skipBtn">এড়িয়ে যান</button><button class="btn primary" id="nextBtn">পরবর্তী →</button></div></section>
+<section id="quizCard" class="glass qcard"><div class="qhead"><span class="pill" id="questionBadge">প্রশ্ন ১ / ১৪১</span><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><span class="subject">গুণগত রসায়ন • C-02</span><span class="subject timer-pill" id="timerDisplay" aria-live="off">⏱ সময়: 00:00</span><button id="bookmark-current-btn" class="bookmark-current" type="button" aria-pressed="false">☆ বুকমার্ক করুন</button></div></div><h2 class="question" id="questionText"></h2><div id="options" class="options"></div><div id="feedback" class="feedback" role="status" aria-live="polite"></div><div class="controls"><button class="btn" id="prevBtn">← পূর্ববর্তী</button><button class="btn" id="skipBtn">এড়িয়ে যান</button><button class="btn primary" id="nextBtn">পরবর্তী →</button></div></section>
 
 <aside id="bookmark-sidebar" class="glass bookmark-sidebar">
   <div class="bookmark-title-row"><h2 class="bookmark-title">★ বুকমার্ক করা প্রশ্ন</h2><span id="bookmark-count" class="bookmark-count">0</span></div>
@@ -49,7 +50,7 @@ button{font:inherit;cursor:pointer}button:disabled{cursor:not-allowed;opacity:.4
   <p class="bookmark-description" style="font-size:11px;margin:8px 0 0">অন্য ব্রাউজার বা ডিভাইসে নিতে ব্যাকআপ ডাউনলোড করে সেখানে রিস্টোর করুন।</p>
 </aside>
 </div>
-<section id="results" class="glass results"><div class="trophy">🏆</div><h2 style="margin:0 0 6px">কুইজ সম্পন্ন হয়েছে</h2><p class="sub">আপনার ফলাফল এবং উত্তর পর্যালোচনা</p><div class="resultgrid"><div class="resultstat"><span>মোট প্রশ্ন</span><strong id="rTotal">141</strong></div><div class="resultstat"><span>সঠিক</span><strong id="rCorrect" style="color:#6ee7b7">0</strong></div><div class="resultstat"><span>ভুল</span><strong id="rWrong" style="color:#fda4af">0</strong></div><div class="resultstat"><span>উত্তরহীন</span><strong id="rSkipped" style="color:#fbbf24">0</strong></div></div><h2 id="accuracy" style="font-size:28px;color:#a5b4fc">0%</h2><p class="sub">সাফল্যের হার</p><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px"><button class="btn primary" id="restartBtn">🔄 আবার পরীক্ষা দিন</button><button class="btn" id="reviewBtn">📋 উত্তর পর্যালোচনা</button></div><div id="review" class="review"><h3>বিস্তারিত উত্তর পর্যালোচনা</h3><div id="reviewList"></div></div></section>
+<section id="results" class="glass results"><div class="trophy">🏆</div><h2 style="margin:0 0 6px">কুইজ সম্পন্ন হয়েছে</h2><p class="sub">আপনার ফলাফল এবং উত্তর পর্যালোচনা</p><div class="resultgrid"><div class="resultstat"><span>মোট প্রশ্ন</span><strong id="rTotal">141</strong></div><div class="resultstat"><span>সঠিক</span><strong id="rCorrect" style="color:#6ee7b7">0</strong></div><div class="resultstat"><span>ভুল</span><strong id="rWrong" style="color:#fda4af">0</strong></div><div class="resultstat"><span>উত্তরহীন</span><strong id="rSkipped" style="color:#fbbf24">0</strong></div></div><div class="timegrid" aria-label="সময় ও গতি পরিসংখ্যান"><div class="timestat"><span>মোট সময়</span><strong id="rTime">0 সেকেন্ড</strong></div><div class="timestat"><span>উত্তর দেওয়া প্রশ্ন</span><strong id="rAnswered">0</strong></div><div class="timestat"><span>প্রতি প্রশ্নে গড় সময়</span><strong id="rAvgTime">—</strong></div></div><h2 id="accuracy" style="font-size:28px;color:#a5b4fc">0%</h2><p class="sub">সাফল্যের হার</p><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px"><button class="btn primary" id="restartBtn">🔄 আবার পরীক্ষা দিন</button><button class="btn" id="reviewBtn">📋 উত্তর পর্যালোচনা</button></div><div id="review" class="review"><h3>বিস্তারিত উত্তর পর্যালোচনা</h3><div id="reviewList"></div></div></section>
 <div class="foot">Content Of Tarek-Copyrighted</div>
 </main>
 <script>
@@ -59,6 +60,53 @@ const letters = ['ক','খ','গ','ঘ'];
 let current = 0;
 let answers = Array(quizData.length).fill(null); // null means unanswered; otherwise selected option index
 let completed = false;
+let quizStartTime = null;
+let quizEndTime = null;
+let timerInterval = null;
+
+function elapsedQuizSeconds() {
+  if (quizStartTime === null) return 0;
+  return Math.max(0, Math.floor(((quizEndTime ?? Date.now()) - quizStartTime) / 1000));
+}
+function formatClock(totalSeconds) {
+  const safe = Math.max(0, Math.floor(totalSeconds));
+  const hours = Math.floor(safe / 3600);
+  const minutes = Math.floor((safe % 3600) / 60);
+  const seconds = safe % 60;
+  return hours > 0
+    ? `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
+    : `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+}
+function formatDuration(totalSeconds) {
+  const safe = Math.max(0, Math.floor(totalSeconds));
+  const hours = Math.floor(safe / 3600);
+  const minutes = Math.floor((safe % 3600) / 60);
+  const seconds = safe % 60;
+  const parts = [];
+  if (hours) parts.push(`${hours} ঘণ্টা`);
+  if (minutes) parts.push(`${minutes} মিনিট`);
+  if (seconds || parts.length === 0) parts.push(`${seconds} সেকেন্ড`);
+  return parts.join(' ');
+}
+function updateTimerDisplay() {
+  const display = $('timerDisplay');
+  if (display) display.textContent = `⏱ সময়: ${formatClock(elapsedQuizSeconds())}`;
+}
+function startTimerIfNeeded() {
+  if (quizStartTime !== null || completed) return;
+  quizStartTime = Date.now();
+  quizEndTime = null;
+  updateTimerDisplay();
+  timerInterval = window.setInterval(updateTimerDisplay, 250);
+}
+function stopTimer() {
+  if (quizStartTime !== null && quizEndTime === null) quizEndTime = Date.now();
+  if (timerInterval !== null) {
+    window.clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  updateTimerDisplay();
+}
 
 // Bookmarks are saved in this browser automatically. Use backup/restore to transfer them.
         const BOOKMARK_STORAGE_KEY = 'chem_c02_qualitative_bookmarks_v1';
@@ -232,13 +280,34 @@ function render(){
   updateNavigator();
   updateBookmarkUI();
 }
-function choose(i){if(answers[current]!==null||completed)return;answers[current]=i;render();if(answers.every(a=>a!==null)){/* User can still review before finishing. */}}
+function choose(i){if(answers[current]!==null||completed)return;startTimerIfNeeded();answers[current]=i;render();if(answers.every(a=>a!==null)){/* User can still review before finishing. */}}
 function go(i){if(i<0||i>=quizData.length||completed)return;current=i;render()}
 function next(){if(current<quizData.length-1){current++;render()}else showResults()}
 function skip(){if(current<quizData.length-1){current++;render()}else showResults()}
-function showResults(){completed=true;$('quizCard').style.display='none';$('stats').style.display='none';$('navigatorBox').style.display='none';$('results').classList.add('show');const correct=answers.reduce((s,a,i)=>s+(a===quizData[i].correct?1:0),0);const answered=answers.filter(a=>a!==null).length;const wrong=answered-correct;const skipped=quizData.length-answered;$('rTotal').textContent=quizData.length;$('rCorrect').textContent=correct;$('rWrong').textContent=wrong;$('rSkipped').textContent=skipped;$('accuracy').textContent=Math.round(correct/quizData.length*100)+'%';buildReview();window.scrollTo({top:0,behavior:'smooth'})}
+function showResults(){
+  if (completed) return;
+  stopTimer();
+  completed=true;
+  $('quizCard').style.display='none';$('stats').style.display='none';$('navigatorBox').style.display='none';$('results').classList.add('show');
+  const correct=answers.reduce((s,a,i)=>s+(a===quizData[i].correct?1:0),0);
+  const answered=answers.filter(a=>a!==null).length;
+  const wrong=answered-correct;const skipped=quizData.length-answered;
+  const totalSeconds=elapsedQuizSeconds();
+  const averageSeconds=answered>0?Math.round(totalSeconds/answered):null;
+  $('rTotal').textContent=quizData.length;$('rCorrect').textContent=correct;$('rWrong').textContent=wrong;$('rSkipped').textContent=skipped;
+  $('rTime').textContent=formatDuration(totalSeconds);
+  $('rAnswered').textContent=answered;
+  $('rAvgTime').textContent=averageSeconds===null?'—':formatDuration(averageSeconds);
+  $('accuracy').textContent=Math.round(correct/quizData.length*100)+'%';
+  buildReview();window.scrollTo({top:0,behavior:'smooth'});
+}
 function buildReview(){const box=$('reviewList');box.innerHTML='';quizData.forEach((q,i)=>{const u=answers[i],ok=u===q.correct;const item=document.createElement('article');item.className='reviewitem';const h=document.createElement('h3');h.textContent=`${i+1}. ${q.question}`;const p1=document.createElement('p');p1.textContent=`আপনার উত্তর: ${u===null?'উত্তর দেওয়া হয়নি':letters[u]+' — '+q.options[u]}`;const p2=document.createElement('p');p2.textContent=`সঠিক উত্তর: ${letters[q.correct]} — ${q.options[q.correct]}`;p2.style.color='#a7f3d0';const p3=document.createElement('p');p3.textContent=u===null?'অবস্থা: উত্তরহীন':ok?'অবস্থা: সঠিক':'অবস্থা: ভুল';p3.style.color=u===null?'#fbbf24':ok?'#6ee7b7':'#fda4af';item.append(h,p1,p2,p3);box.appendChild(item)})}
-function restart(){current=0;answers=Array(quizData.length).fill(null);completed=false;$('results').classList.remove('show');$('review').classList.remove('show');$('quizCard').style.display='block';$('stats').style.display='grid';$('navigatorBox').style.display='block';buildNavigator();render();window.scrollTo({top:0,behavior:'smooth'})}
+function restart(){
+  if (timerInterval !== null) { window.clearInterval(timerInterval); timerInterval = null; }
+  current=0;answers=Array(quizData.length).fill(null);completed=false;
+  quizStartTime=null;quizEndTime=null;updateTimerDisplay();
+  $('results').classList.remove('show');$('review').classList.remove('show');$('quizCard').style.display='block';$('stats').style.display='grid';$('navigatorBox').style.display='block';buildNavigator();render();window.scrollTo({top:0,behavior:'smooth'});
+}
 $('prevBtn').addEventListener('click',()=>go(current-1));$('nextBtn').addEventListener('click',next);$('skipBtn').addEventListener('click',skip);$('restartBtn').addEventListener('click',restart);$('resetBtn').addEventListener('click',()=>{if(confirm('সব উত্তর মুছে কুইজ রিসেট করবেন?'))restart()});$('reviewBtn').addEventListener('click',()=>$('review').classList.toggle('show'));
 // Integrity checks prevent a partial question set from starting silently.
 if(quizData.length!==141||quizData.some((q,i)=>q.id!==i+1||q.options.length!==4||!Number.isInteger(q.correct)||q.correct<0||q.correct>3)){
